@@ -1,0 +1,23 @@
+.searchBox form {
+    position: relative;
+}
+
+.searchBox form i {
+    position: absolute;
+    left: 12px;
+    font-size: 13px;
+}
+
+.searchBox form input.form-control.form-control {
+    padding-left: 42px;
+    width: 500px;
+    outline: none;
+    box-shadow: none;
+    background: #F7F7F7;
+    border-color: #F7F7F7;
+    border-radius: 7px;
+}
+
+.form-control:focus {
+    border-color: #F7F7F7;
+}

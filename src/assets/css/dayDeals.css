@@ -1,0 +1,35 @@
+.dayDeals .slider-navigation {
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999 !important;
+}
+
+.dayDeals .swiper-button-prev,
+.dayDeals .swiper-button-next {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+}
+
+.dayDeals .swiper-button-prev {
+    left: -50px;
+}
+
+.dayDeals .swiper-button-next {
+    right: -50px;
+}
+
+.dayDeals {
+    padding-bottom: 80px;
+}
+
+.dayDeals .swiper-button-next:after,
+.dayDeals .swiper-button-prev:after {
+    display: none;
+}

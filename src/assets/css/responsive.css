@@ -1,0 +1,77 @@
+@media (max-width: 576px) {
+    .gradient-circle {
+        background: linear-gradient(180deg, #806DF4 0%, #F46DEE 100%);
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .product-image {
+        max-width: 100%;
+        height: 317px;
+        position: relative;
+        z-index: 9;
+        left: 49px;
+        top: -44px;
+    }
+
+    .offer-card {
+        background-color: #fff;
+        padding: 7px 20px;
+        box-shadow: 0px 4px 6.3px 0px #00000024;
+        border-radius: 8px;
+        position: absolute;
+        top: 10%;
+        left: 17px;
+        z-index: 9;
+        text-align: center;
+        width: 230px;
+    }
+
+    .offer-card p {
+        padding-bottom: 0;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.5;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .heroBox {
+        padding-top: 150px;
+    }
+
+    .review-card {
+        background-color: #fff;
+        padding: 10px 20px;
+        box-shadow: 0px 4px 6.3px 0px #00000024;
+        border-radius: 8px;
+        position: absolute;
+        bottom: 0%;
+        left: 7px;
+        z-index: 9;
+        text-align: center;
+    }
+
+    .offer-card p,
+    .review-card p {
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    .banner-content {
+        width: auto;
+        line-height: 29px;
+        font-weight: 300;
+        font-family: "Work Sans", sans-serif;
+    }
+
+
+}

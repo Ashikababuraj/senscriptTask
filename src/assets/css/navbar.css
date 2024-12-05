@@ -1,0 +1,50 @@
+header {
+    padding-top: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    font-family: "Syne", sans-serif;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.ebrands-menu li {
+    margin-right: 35px;
+}
+
+.ebrands-menu li a {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ebrands-menu li a.active {
+    font-weight: 700;
+}
+
+.ebrand-buttons button.btn-outline-dark {
+    border: 2px solid var(--black);
+    font-size: 14px;
+    padding: 8px 26px;
+    font-weight: 500;
+}
+
+.ebrand-buttons button.login-btn {
+    border: 2px solid var(--violet-color);
+    background: var(--violet-color);
+    color: var(--white);
+    font-size: 14px;
+    padding: 8px 20px;
+    font-weight: 500;
+    border-radius: 50px;
+}

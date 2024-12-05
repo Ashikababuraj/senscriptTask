@@ -1,0 +1,41 @@
+.newsletter {
+    background: var(--violet-color);
+}
+
+.newsletter-content h3 {
+    color: var(--white);
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.newsletter-content p {
+    color: var(--white);
+    line-height: inherit;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.newsletter form input[type="text"] {
+    padding: 17px 12px;
+    border-radius: 8px;
+    border: none;
+    background: var(--white);
+    width: 100%;
+}
+
+.newsletter form input[type="submit"] {
+    padding: 13px 24px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    background: #000;
+    color: var(--white);
+    position: relative;
+    right: 91px;
+    height: 48px;
+    top: 5px;
+}
+
+.newsletter form input[type="text"]:focus {
+    outline: none;
+}

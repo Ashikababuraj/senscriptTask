@@ -1,0 +1,89 @@
+.main-title h2 {
+    font-weight: 700;
+}
+
+.product-items {
+    border: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-items .details {
+
+    padding: 15px;
+}
+
+.details h5 {
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 12px;
+}
+
+.details h6 {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.text-grey {
+    color: #5c5b5b;
+}
+
+.details h6 span {
+    font-weight: 300 !important;
+}
+
+.offerTag {
+    background: var(--golden-color);
+    padding: 2px 13px;
+    border-radius: 0px;
+    color: rgb(55 53 53);
+    font-weight: 600;
+    margin-right: 5px;
+    font-size: 14px;
+    position: absolute;
+    top: 37px;
+    left: 11px;
+}
+
+
+.bestDeals .swiper-button-next,
+.bestDeals .swiper-button-prev {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 50%;
+    z-index: 10;
+    margin-top: 20px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--black);
+}
+
+
+
+
+
+.bestDeals .swiper-button-next:hover,
+.bestDeals .swiper-button-prev:hover {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    color: var(--white);
+}
+
+.bestDeals .swiper-button-next:after,
+.bestDeals .swiper-button-prev:after {
+    font-size: 16px;
+    padding: 3px 13px;
+    display: none;
+}
+
+.product-items img {
+    width: 100%;
+}
